@@ -45,7 +45,8 @@ Você pode ter acesso ao layout desse projeto por meio [desse link](https://www.
 ## 👨‍💻 Preview
 
 Você pode acessar o projeto online pelo link abaixo: <br/>
-<a href="https://bora-codar-product-card.vercel.app" _blank>CardProduct</a>
+
+<a href="https://bora-codar-button-cursors-82md.vercel.app" _blank>Button&Cursors</a>
 
 O site está hosepdado na vercel.
 
