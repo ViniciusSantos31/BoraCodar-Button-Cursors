@@ -1,0 +1,81 @@
+.button {
+  padding: 1.2rem 2.4rem;
+  border-radius: 2.4rem;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  color: var(--text-color);
+  transition: background 0.2s ease-in-out;
+}
+
+.button[draggable] {
+  cursor: move;
+}
+
+.button[draggable]:active {
+  cursor: move;
+}
+
+.button[draggable] .draggable-icon {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.button[class*="grabbing"] {
+  opacity: 0;
+}
+
+.loading {
+  cursor: progress;
+}
+
+.primary {
+  background: var(--default-primary-background);
+}
+
+.primary:focus-visible {
+  background: var(--focus-primary-background);
+
+  outline: 0.2rem solid var(--focus-border);
+}
+
+.primary:disabled,
+.secondary:disabled,
+.tertiary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--hover-primary-background);
+}
+
+.secondary {
+  background: var(--default-secondary-background);
+}
+
+.secondary:focus-visible {
+  outline: 0.2rem solid var(--focus-border);
+}
+
+.secondary:hover:not(:disabled) {
+  background: var(--hover-secondary-background);
+}
+
+.tertiary {
+  background: var(--default-tertiary-background);
+}
+
+.tertiary:focus-visible {
+  outline: 0.2rem solid var(--focus-border);
+}
+
+.tertiary:hover:not(:disabled) {
+  background: var(--hover-tertiary-background);
+}
