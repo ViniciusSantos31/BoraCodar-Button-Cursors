@@ -20,7 +20,7 @@
 <br>
 
 <p align="center">
-  <img src=".github/preview.gif" width="100%">
+  <img src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -45,7 +45,8 @@ Você pode ter acesso ao layout desse projeto por meio [desse link](https://www.
 ## 👨‍💻 Preview
 
 Você pode acessar o projeto online pelo link abaixo: <br/>
-<a href="https://bora-codar-product-card.vercel.app" _blank>CardProduct</a>
+
+<a href="https://bora-codar-button-cursors-82md.vercel.app" _blank>Button&Cursors</a>
 
 O site está hosepdado na vercel.
 
